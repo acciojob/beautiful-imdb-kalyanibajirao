@@ -6,11 +6,37 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 
+ <style>
+        .moviePic {
+            height: 300px;
+            width: 200px;
+            opacity: 0.9;
+        }
+        .movieDetail {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 60%;
+            text-align: center;
+            font-size: 18px;
+        }
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div>
+        <img src="movie-poster.jpg" alt="Movie Poster" class="moviePic">
+        <p class="movieDetail">This is a description of the movie. It's a captivating story that will keep you on the edge of your seat from start to finish. Don't miss out on this cinematic masterpiece.</p>
+    </div>
 </body>
+	
 
 </html>
